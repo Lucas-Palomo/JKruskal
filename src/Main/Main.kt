@@ -6,14 +6,11 @@ fun main() {
 
     val grafo = loader()
 
-    println("Kruska ====== ");
+    println("Kruska ====== ")
 
-//    if (Functions.isCyclic(grafo.vertices)) {
-//        println("Graph contains cycle")
-//    }else{
-//        println("Graph doesn't contains cycle")
-//    }
     Functions.Kruskal(grafo)
+
+//    println(Functions.isCyclic(grafo.vertices))
 
 }
 
@@ -67,3 +64,4 @@ fun loader():Grafo{
     return Grafo(arrayOf(a,b,c,d,e,f))
 
 }
+

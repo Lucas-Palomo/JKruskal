@@ -9,6 +9,7 @@ public class Vertice {
 
     public Vertice(String idVertice) {
         this.idVertice = idVertice;
+        this.arestas = new ArrayList<Aresta>();
     }
 
     public String getIdVertice() {
@@ -25,6 +26,14 @@ public class Vertice {
 
     public void setArestas(ArrayList<Aresta> arestas) {
         this.arestas = arestas;
+    }
+
+    public void addAresta(Aresta aresta){
+        this.arestas.add(aresta);
+    }
+
+    public void rmAresta(Aresta aresta){
+        this.arestas.remove(aresta);
     }
 
 }

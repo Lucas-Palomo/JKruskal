@@ -8,10 +8,18 @@ public class Grafo {
     private ArrayList<Aresta> arestas;
     private ArrayList<Grafo> componentes;
 
+    public Grafo(){
+        this.vertices = new ArrayList<Vertice>(0);
+        this.arestas = new ArrayList<Aresta>(0);
+    }
+//    public Grafo(ArrayList<Vertice> vertices, ArrayList<Aresta> aresta){
+//        this.vertices = vertices;
+//        this.arestas = aresta;
+//    }
+
     public Grafo(Vertice[] vertices){
         this.vertices = new ArrayList<Vertice>(0);
         this.arestas = new ArrayList<Aresta>(0);
-        this.componentes = new ArrayList<Grafo>(0);
 
         Collections.addAll(this.vertices, vertices);
         this.getArestas();
@@ -61,6 +69,29 @@ public class Grafo {
 
     public void rmAresta(Aresta aresta){
         this.arestas.remove(aresta);
+    }
+
+    public void addAllArestas(ArrayList<Aresta> v1, ArrayList<Aresta> v2) {
+        if(arestas.isEmpty()){
+            this.arestas.addAll(v1);
+        }else {
+            for (Aresta aresta : this.arestas) {
+                if (!existeAresta(v1, aresta) && !existeAresta(v2, aresta)) {
+                    this.arestas.add(aresta);
+                }
+            }
+        }
+    }
+
+    private Boolean existeAresta(ArrayList<Aresta> aresta, Aresta a){
+        String idAresta = a.getOrigem().getIdVertice()+a.getAlvo().getIdVertice();
+        for(Aresta tempAresta: aresta){
+            String idTemp = new StringBuilder(tempAresta.getOrigem().getIdVertice()).append(tempAresta.getAlvo().getIdVertice()).reverse().toString();
+            if(idTemp.equals(idAresta)){
+                return true;
+            }
+        }
+        return false;
     }
 
     public ArrayList<Grafo> getComponentes() {
