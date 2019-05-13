@@ -1,16 +1,14 @@
 package Main
+import Core.Kruskal
+import Core.exibirGrafo
 import Object.*
-import Core.Functions
 
 fun main() {
 
     val grafo = loader()
 
-    println("Kruska ====== ")
-
-    Functions.Kruskal(grafo)
-
-//    println(Functions.isCyclic(grafo.vertices))
+    println("Kruskal ====== ")
+    Kruskal(grafo)
 
 }
 
@@ -19,49 +17,38 @@ fun loader():Grafo{
 
     println("Inicializando Grafo")
 
+    val grafo = Grafo(arrayOf("A","B","C","D","E","F"))
 
-    val a = Vertice("A")
-    val b = Vertice("B")
-    val c = Vertice("C")
-    val d = Vertice("D")
-    val e = Vertice("E")
-    val f = Vertice("F")
+    // A = 0; B = 1; C = 2; D = 3; E = 4; F = 5
 
-    a.arestas = arrayListOf(
-        Aresta(a,b,1.0),
-        Aresta(a,c,2.0)
-    )
+/*  Teste 1
+    grafo.addAresta("A","B", 4.0)
+    grafo.addAresta("A","C", 3.0)
+    grafo.addAresta("B","C", 1.0)
+    grafo.addAresta("B","D", 2.0)
+    grafo.addAresta("C","D", 4.0)
+    grafo.addAresta("D","E", 2.0)
+    grafo.addAresta("E","F", 6.0)
+*/
 
-    b.arestas = arrayListOf(
-        Aresta(b, a,1.0),
-        Aresta(b, c,3.0)
-    )
+    grafo.addAresta("A","B",1.0)
+    grafo.addAresta("A","C",2.0)
 
-    c.arestas = arrayListOf(
-        Aresta(c, a,2.0),
-        Aresta(c, b,3.0),
-        Aresta(c, d,4.0),
-        Aresta(c, f,6.0),
-        Aresta(c, e,5.0)
-    )
+    grafo.addAresta("B","C",3.0)
 
-    d.arestas = arrayListOf(
-        Aresta(d, c,4.0),
-        Aresta(d, e,7.0)
-    )
+    grafo.addAresta("C","D",4.0)
+    grafo.addAresta("C","E",5.0)
+    grafo.addAresta("C","F",6.0)
 
-    e.arestas = arrayListOf(
-        Aresta(e, d,7.0),
-        Aresta(e, c,5.0),
-        Aresta(e, f,8.0)
-    )
+    grafo.addAresta("D","C",4.0)
+    grafo.addAresta("D","E",7.0)
 
-    f.arestas = arrayListOf(
-        Aresta(f, c,6.0),
-        Aresta(f, e,8.0)
-    )
+    grafo.addAresta("E","D",7.0)
+    grafo.addAresta("E","F",8.0)
 
-    return Grafo(arrayOf(a,b,c,d,e,f))
+//    grafo.addAresta("A","A",8.0)
 
+
+    return grafo
 }
 

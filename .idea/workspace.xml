@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d093e1f6-e301-4870-824a-f56b57d53a42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Core/Functions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Aresta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Grafo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Functions.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Object/Grafo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/Vertice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Object/Vertice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Object/Aresta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Object/Grafo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Object/Vertice.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,67 +24,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="147">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
-                <element signature="e#13#50#0" expanded="true" />
+                <element signature="e#13#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Object/Grafo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
-              <folding>
-                <element signature="method#getArestas#0;class#Grafo#0" />
-                <element signature="e#910#972#0" />
-                <element signature="e#1384#1423#1" />
-                <element signature="e#1739#1740#0" expanded="true" />
-                <element signature="e#1622#1657#1" />
-                <element signature="e#2838#2839#0" expanded="true" />
-                <element signature="e#1720#1767#1" />
-                <element signature="e#2948#2949#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Object/Vertice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Object/Aresta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-177">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Core/Functions.java">
+        <entry file="file://$PROJECT_DIR$/src/Object/Grafo.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3220#3229#0" expanded="true" />
-                <element signature="method#isCyclicUtil#0;class#Functions#0" />
-                <element signature="method#isCyclic#0;class#Functions#0" />
-                <element signature="e#5572#5590#0" expanded="true" />
-              </folding>
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Object/Aresta.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -90,18 +59,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>NavigableSet</find>
+      <find>temCiclo</find>
     </findStrings>
     <replaceStrings>
       <replace>ArrayList</replace>
+      <replace>insereAresta</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -112,14 +83,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.kt" />
         <option value="$PROJECT_DIR$/src/Object/Vertices.kt" />
-        <option value="$PROJECT_DIR$/src/Object/Grafo.kt" />
         <option value="$PROJECT_DIR$/src/Object/Vertices.java" />
         <option value="$PROJECT_DIR$/src/core/Functions.java" />
-        <option value="$PROJECT_DIR$/src/Object/Aresta.java" />
-        <option value="$PROJECT_DIR$/src/Main/Main.kt" />
-        <option value="$PROJECT_DIR$/src/Object/Vertice.java" />
-        <option value="$PROJECT_DIR$/src/Object/Grafo.java" />
         <option value="$PROJECT_DIR$/src/Core/Functions.java" />
+        <option value="$PROJECT_DIR$/src/Object/Vertice.java" />
+        <option value="$PROJECT_DIR$/src/Object/Aresta.java" />
+        <option value="$PROJECT_DIR$/src/Object/Grafo.java" />
+        <option value="$PROJECT_DIR$/src/Object/Aresta.kt" />
+        <option value="$PROJECT_DIR$/src/Object/Grafo.kt" />
+        <option value="$PROJECT_DIR$/src/Core/Functions.kt" />
+        <option value="$PROJECT_DIR$/src/Main/Main.kt" />
       </list>
     </option>
   </component>
@@ -129,12 +102,16 @@
     <option name="width" value="1368" />
     <option name="height" value="767" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +123,12 @@
               <item name="Jkruskal" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jkruskal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jkruskal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jkruskal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jkruskal" type="b2602c69:ProjectViewProjectNode" />
@@ -163,8 +146,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,15 +160,16 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Main" />
-      <recent name="$PROJECT_DIR$/src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Object" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.." />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Object" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Core" />
+      <recent name="$PROJECT_DIR$/src/Main" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -238,12 +220,13 @@
       <workItem from="1557537643188" duration="317000" />
       <workItem from="1557538025858" duration="6821000" />
       <workItem from="1557568991258" duration="3892000" />
-      <workItem from="1557659563455" duration="30240000" />
+      <workItem from="1557659563455" duration="30321000" />
+      <workItem from="1557714581889" duration="11564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47016000" />
+    <option name="totallyTimeSpent" value="58661000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -258,7 +241,7 @@
     <frame x="-1" y="-22" width="1368" height="767" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49422634" visible="true" weight="0.19015151" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49422634" visible="true" weight="0.19318181" />
       <window_info id="Structure" order="1" sideWeight="0.50577366" side_tool="true" weight="0.19015151" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -334,7 +317,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Object/Vertices.kt" />
-    <entry file="file://$PROJECT_DIR$/src/Object/Grafo.kt" />
     <entry file="file://$PROJECT_DIR$/src/Object/Vertices.java" />
     <entry file="jrt:///opt/idea-IU-191.6183.87/jre64!/java.base/java/util/function/BiConsumer.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -350,57 +332,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Object/Vertice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Object/Aresta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Object/Vertice.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Object/Grafo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Functions.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Ranges.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+        <state relative-caret-position="135">
+          <caret line="703" column="21" selection-start-line="703" selection-start-column="21" selection-end-line="703" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Object/Aresta.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Functions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
           <folding>
-            <element signature="method#getArestas#0;class#Grafo#0" />
-            <element signature="e#910#972#0" />
-            <element signature="e#1384#1423#1" />
-            <element signature="e#1739#1740#0" expanded="true" />
-            <element signature="e#1622#1657#1" />
-            <element signature="e#2838#2839#0" expanded="true" />
-            <element signature="e#1720#1767#1" />
-            <element signature="e#2948#2949#0" expanded="true" />
+            <element signature="e#13#108#0" expanded="true" />
+            <element signature="n#!!block;n#exibirGrafo#0" />
+            <element signature="n#!!block;n#insereAresta#0" />
+            <element signature="n#!!block;n#mergeTree#0" />
+            <element signature="n#!!block;n#getPos#0" />
+            <element signature="n#!!block;n#ordenarAresta#0" />
+            <element signature="n#!!block;n#getCusto#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Object/Grafo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="147">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
-            <element signature="e#13#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/Functions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3220#3229#0" expanded="true" />
-            <element signature="method#isCyclicUtil#0;class#Functions#0" />
-            <element signature="method#isCyclic#0;class#Functions#0" />
-            <element signature="e#5572#5590#0" expanded="true" />
+            <element signature="e#13#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
